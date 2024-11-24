@@ -1,0 +1,15 @@
+{
+    "bigCats": [
+      { "name": "Lion", "location": "Africa", "size": 190, "image": "lion.png" },
+      { "name": "Tiger", "location": "Asia", "size": 220, "image": "tiger.png" }
+    ],
+    "dogs": [
+      { "name": "Labrador", "location": "Canada", "size": 65, "image": "labrador.png" },
+      { "name": "Beagle", "location": "England", "size": 25, "image": "beagle.png" }
+    ],
+    "bigFish": [
+      { "name": "Shark", "location": "Ocean", "size": 600, "image": "shark.png" },
+      { "name": "Whale", "location": "Ocean", "size": 1000, "image": "whale.png" }
+    ]
+  }
+  
