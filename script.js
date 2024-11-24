@@ -129,7 +129,7 @@ function addAnimal(containerId, data) {
     return;
   }
   let newContainerType = containerId.replace("Table",""); console.log("id=", data[0][newContainerType]);
-  data[0][newContainerType].push({ name, location, size: parseInt(size, 10), image: 'default.jpg' });
+  data[0][newContainerType].push({ name, location, size: parseInt(size, 10), image: 'default.png' });
   renderTable(containerId, data[0][newContainerType], sortableFields, specialStyles);
 }
 
